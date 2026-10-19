@@ -81,8 +81,18 @@ Baseline normalization and optimization settings differ from Ima-CD.
 python -m unittest discover -s tests -v
 ```
 
-Tests use synthetic data; no recordings are required.
+Tests automatically generate temporary synthetic signals and MAT files to
+check data loading, model variants, loss functions, and training/evaluation
+with saved checkpoints. No WT recordings are needed to run these checks.
+These are code functionality tests, not the experiments reported in the paper;
+reproducing those results requires the real WT dataset.
 
 ## License
 
-[MIT](LICENSE). The WT dataset remains subject to its providers' terms.
+The source code is released under the [MIT License](LICENSE), which permits
+use, modification and redistribution, including commercial use, provided
+the copyright notice and license text are retained in copies or substantial
+portions of the software. The software is provided without warranty.
+
+This license covers the code, not the WT dataset. Obtain the dataset from
+its providers and follow their usage and redistribution terms.
