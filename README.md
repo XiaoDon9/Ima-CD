@@ -296,6 +296,9 @@ trips. Importing the packages does not create output directories.
 This source-only release supersedes the earlier flat bundle. Old checkpoints
 are not directly interchangeable with the reorganized APIs; local original
 experiment folders remain separate. This release restores the full model
-as the default without adding training outputs or sweep launchers. Before
-publishing, the rights holders should choose
-a software license; no license or repository URL is invented here.
+as the default without adding training outputs or sweep launchers.
+
+## License
+
+The source code is licensed under the [MIT License](LICENSE).
+The WT dataset is not included and remains subject to its providers' terms.
